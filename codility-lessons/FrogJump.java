@@ -12,13 +12,11 @@ public class FrogJump {
 
     ArrayList<Integer> results = new ArrayList<>();
 
-    private Solution sol = new Solution();
-
     private void run(){
         inputList.add(input1);
 
         for(Integer[] input: inputList){
-            int result = sol.solution(input[0], input[1], input[2]);
+            int result = solution(input[0], input[1], input[2]);
             results.add(result);
         }
 
@@ -28,20 +26,17 @@ public class FrogJump {
         new FrogJump().run();
     }
 
-    static class Solution {
-        int solution(int X, int Y, int D) {
-            if ((Y < X) || (Y == X)) return 0;
-            if ((Y - X) < D) return 1;
+    int solution(int X, int Y, int D) {
+        if ((Y < X) || (Y == X)) return 0;
+        if ((Y - X) < D) return 1;
 
-            int steps = (Y - X) / D;
+        int steps = (Y - X) / D;
 //            System.out.println(steps);
-            int remaining = (Y - X) % D;
+        int remaining = (Y - X) % D;
 //            System.out.println(remaining);
 
-            if(remaining != 0) return steps + 1;
-            else return steps;
-        }
+        if(remaining != 0) return steps + 1;
+
+        return steps;
     }
-
 }
-
