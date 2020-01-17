@@ -26,14 +26,12 @@ public class FrogJump {
         new FrogJump().run();
     }
 
-    int solution(int X, int Y, int D) {
+    private int solution(int X, int Y, int D) {
         if ((Y < X) || (Y == X)) return 0;
         if ((Y - X) < D) return 1;
 
         int steps = (Y - X) / D;
-//            System.out.println(steps);
         int remaining = (Y - X) % D;
-//            System.out.println(remaining);
 
         if(remaining != 0) return steps + 1;
 

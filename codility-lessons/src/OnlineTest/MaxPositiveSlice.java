@@ -1,10 +1,13 @@
 package OnlineTest;
 
+/**
+ * Given an array of negative and positive integers
+ * find the maximum subarray of the positive numbers
+ */
 public class MaxPositiveSlice {
     public static void main(String[] args) {
         System.out.println(solution(new int[] {1,0,3,-3,2,1,-2,0,3,4,0,-1})); // 7
         System.out.println(solution(new int[] {-2,-1})); // -1
-
     }
 
     private static int solution(int A[]){
