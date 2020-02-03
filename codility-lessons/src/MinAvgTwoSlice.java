@@ -2,8 +2,8 @@ public class MinAvgTwoSlice {
 
     public int solution(int[] A) {
         int size = A.length;
-        double minavg1 = Double.MAX_VALUE;
-        double minavg2 = Double.MAX_VALUE;
+        double minavg1;
+        double minavg2;
         double minavg = Double.MAX_VALUE;
         int minIndex = 0;
 

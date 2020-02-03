@@ -10,7 +10,7 @@ public class MaxPositiveSlice {
         System.out.println(solution(new int[] {-2,-1})); // -1
     }
 
-    private static int solution(int A[]){
+    private static int solution(int[] A){
         int maxSlice = Integer.MIN_VALUE;
         int localSlice = 0;
 

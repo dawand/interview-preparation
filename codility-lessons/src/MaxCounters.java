@@ -34,14 +34,12 @@ public class MaxCounters {
         int currMax = 0;
         int[] result = new int[N];
 
-        for(int i=0;i<result.length;i++) result[i] = 0;
-
-        for(int i=0; i<size; i++){
-            if(A[i] < N+1){
-                result[A[i]-1] += 1;
-                currMax = Math.max(currMax, result[A[i]-1]);
-            } else if (A[i] == N+1){
-                for(int j=0; j<N;j++){
+        for (int value : A) {
+            if (value < N + 1) {
+                result[value - 1] += 1;
+                currMax = Math.max(currMax, result[value - 1]);
+            } else if (value == N + 1) {
+                for (int j = 0; j < N; j++) {
                     result[j] = currMax;
                 }
             }
