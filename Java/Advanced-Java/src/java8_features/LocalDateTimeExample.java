@@ -2,13 +2,12 @@ package java8_features;
 
 import java.time.*;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 import java.util.Date;
 
-public class LocalDateTime {
+public class LocalDateTimeExample {
     public static void main(String[] args) {
-        java.time.LocalDateTime currentTime = java.time.LocalDateTime.now();
+        LocalDateTime currentTime = LocalDateTime.now();
         System.out.println(currentTime);
 
         LocalDate date = LocalDate.now();
@@ -51,7 +50,7 @@ public class LocalDateTime {
 
         Instant instant = date1.toInstant();
 
-        java.time.LocalDateTime newDate = java.time.LocalDateTime.ofInstant(instant, ZoneId.systemDefault());
+        LocalDateTime newDate = LocalDateTime.ofInstant(instant, ZoneId.systemDefault());
         System.out.println(newDate);
     }
 }

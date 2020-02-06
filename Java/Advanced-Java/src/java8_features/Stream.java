@@ -33,6 +33,5 @@ public class Stream {
         // limit and sorted
         Random random = new Random();
         random.ints().limit(10).sorted().forEach(System.out::println);
-
     }
 }
