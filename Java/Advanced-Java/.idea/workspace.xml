@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c0d5455-d372-4791-8e0e-e674d256544e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Concurrency/ConditionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AsyncProgramming/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Advanced-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ConditionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ConditionExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ThreadLocalExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ThreadLocalExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ThreadSafeFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ThreadSafeFormatter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/VolatileOrAtomic$FlagChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/VolatileOrAtomic$FlagChecker.class" afterDir="false" />
@@ -28,7 +32,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/DesignPatterns/state/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/DesignPatterns/state/Selection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/DesignPatterns/state/Tool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/DesignPatterns/state/Tool.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/DesignPatterns/state/ToolType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/DesignPatterns/state/ToolType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/META-INF/Advanced-Java.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/csv_reader/CSVReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/csv_reader/CSVReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/csv_reader/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/csv_reader/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/dsa_koffman_ch2/JUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/dsa_koffman_ch2/JUnitTest.class" afterDir="false" />
@@ -41,7 +44,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/FunctionalInterfaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/FunctionalInterfaces.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/GreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/GreetingService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/Lambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/Lambda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/LocalDateTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/LocalDateTimeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/LocalDateTimeExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/MathOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/MathOperation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/MethodReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/MethodReference.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/Stream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java8_features/Stream.class" afterDir="false" />
@@ -50,6 +53,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/PersonMetaData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/PersonMetaData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakHashMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakHashMapExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakReferenceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakReferenceExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Concurrency/ConditionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Concurrency/ConditionExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Concurrency/ThreadLocalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Concurrency/ThreadLocalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Concurrency/VolatileOrAtomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Concurrency/VolatileOrAtomic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DesignPatterns/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/TaxCalculator.java" afterDir="false" />
@@ -77,7 +81,7 @@
       <change beforePath="$PROJECT_DIR$/src/interfaces/TaxPayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/TaxPayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java8_features/FunctionalInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8_features/FunctionalInterfaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java8_features/Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8_features/Lambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8_features/LocalDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8_features/LocalDateTimeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8_features/LocalDateTimeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8_features/LocalDateTimeExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java8_features/MethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8_features/MethodReference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java8_features/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8_features/Stream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java_gc/FinalizeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_gc/FinalizeExample.java" afterDir="false" />
@@ -169,8 +173,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -195,7 +199,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="profiler.jvm" />
   </component>
-  <component name="RunManager" selected="Application.ConditionExample">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="FunctionalProgramming" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ConditionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Concurrency.ConditionExample" />
       <module name="Advanced-Java" />
@@ -209,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.state.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Main" />
       <module name="Advanced-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.state.*" />
+          <option name="PATTERN" value="FunctionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ConditionExample" />
         <item itemvalue="Application.ThreadLocalExample" />
         <item itemvalue="Application.ThreadLocal" />
         <item itemvalue="Application.VolatileOrAtomic" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +296,7 @@
       <workItem from="1580002415381" duration="27205000" />
       <workItem from="1580598865455" duration="630000" />
       <workItem from="1580761533919" duration="7894000" />
-      <workItem from="1580817588424" duration="6941000" />
+      <workItem from="1580817588424" duration="9038000" />
     </task>
     <servers />
   </component>
@@ -295,37 +304,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="407" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1580768143596">
+    <state x="407" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1581113592989">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state x="407" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1580768143596" />
-    <state width="1157" height="175" key="GridCell.Tab.0.bottom" timestamp="1581029833886">
+    <state x="407" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581113592989" />
+    <state width="1157" height="175" key="GridCell.Tab.0.bottom" timestamp="1581113740187">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.bottom/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581029833886" />
+    <state width="1157" height="175" key="GridCell.Tab.0.bottom/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581113740187" />
     <state width="1157" height="189" key="GridCell.Tab.0.bottom/0.0.1200.760@0.0.1200.760" timestamp="1580817425988" />
-    <state width="1157" height="175" key="GridCell.Tab.0.center" timestamp="1581029833886">
+    <state width="1157" height="175" key="GridCell.Tab.0.center" timestamp="1581113740187">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.center/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581029833886" />
+    <state width="1157" height="175" key="GridCell.Tab.0.center/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581113740187" />
     <state width="1157" height="189" key="GridCell.Tab.0.center/0.0.1200.760@0.0.1200.760" timestamp="1580817425987" />
-    <state width="1157" height="175" key="GridCell.Tab.0.left" timestamp="1581029833886">
+    <state width="1157" height="175" key="GridCell.Tab.0.left" timestamp="1581113740187">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.left/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581029833886" />
+    <state width="1157" height="175" key="GridCell.Tab.0.left/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581113740187" />
     <state width="1157" height="189" key="GridCell.Tab.0.left/0.0.1200.760@0.0.1200.760" timestamp="1580817425987" />
-    <state width="1157" height="175" key="GridCell.Tab.0.right" timestamp="1581029833886">
+    <state width="1157" height="175" key="GridCell.Tab.0.right" timestamp="1581113740187">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.right/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581029833886" />
+    <state width="1157" height="175" key="GridCell.Tab.0.right/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581113740187" />
     <state width="1157" height="189" key="GridCell.Tab.0.right/0.0.1200.760@0.0.1200.760" timestamp="1580817425988" />
     <state x="34" y="106" key="new project wizard" timestamp="1580603326925">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
     <state x="34" y="106" key="new project wizard/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1580603326925" />
-    <state x="263" y="81" key="search.everywhere.popup" timestamp="1580764744946">
+    <state x="263" y="81" key="search.everywhere.popup" timestamp="1581113063460">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state x="263" y="81" key="search.everywhere.popup/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1580764744946" />
+    <state x="263" y="81" key="search.everywhere.popup/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581113063460" />
   </component>
 </project>
