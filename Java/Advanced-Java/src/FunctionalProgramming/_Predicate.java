@@ -7,7 +7,7 @@ public class _Predicate {
         System.out.println(isPhoneNumberValid("070000000032"));
         System.out.println(isPhoneNumberValid("07000000032"));
 
-        System.out.println(isPhoneNumberValid.test("07000000032"));
+        System.out.println(isPhoneNumberValid .test("07000000032"));
     }
 
     static Predicate<String> isPhoneNumberValid =
