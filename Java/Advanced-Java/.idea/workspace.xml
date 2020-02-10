@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c0d5455-d372-4791-8e0e-e674d256544e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CombinatorPattern/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinatorPattern/CustomerRegistrationValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinatorPattern/CustomerValidatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinatorPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinatorPattern/ValidationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/_Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Optionals/_Optionals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Callbacks/Callbacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Callbacks/Lambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
@@ -16,6 +11,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Advanced-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/AsyncProgramming/CompletableFutureExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/AsyncProgramming/CompletableFutureExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/CustomerRegistrationValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/CustomerRegistrationValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/CustomerValidatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/CustomerValidatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/ValidationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/ValidationResult.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ConditionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ConditionExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ThreadLocalExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ThreadLocalExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ThreadSafeFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Concurrency/ThreadSafeFormatter.class" afterDir="false" />
@@ -41,6 +41,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/FunctionalProgramming/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/FunctionalProgramming/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/FunctionalProgramming/_Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/FunctionalProgramming/_Function.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/FunctionalProgramming/_Predicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/FunctionalProgramming/_Predicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/FunctionalProgramming/_Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/FunctionalProgramming/_Supplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/META-INF/Advanced-Java.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/META-INF/Advanced-Java.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Optionals/_Optionals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Optionals/_Optionals.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/csv_reader/CSVReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/csv_reader/CSVReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/csv_reader/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/csv_reader/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/dsa_koffman_ch2/JUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/dsa_koffman_ch2/JUnitTest.class" afterDir="false" />
@@ -63,6 +66,11 @@
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakHashMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakHashMapExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakReferenceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakReferenceExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AsyncProgramming/CompletableFutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AsyncProgramming/CompletableFutureExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CombinatorPattern/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinatorPattern/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CombinatorPattern/CustomerRegistrationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinatorPattern/CustomerRegistrationValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CombinatorPattern/CustomerValidatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinatorPattern/CustomerValidatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CombinatorPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinatorPattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CombinatorPattern/ValidationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinatorPattern/ValidationResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Concurrency/ConditionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Concurrency/ConditionExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Concurrency/ThreadLocalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Concurrency/ThreadLocalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Concurrency/VolatileOrAtomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Concurrency/VolatileOrAtomic.java" afterDir="false" />
@@ -85,6 +93,8 @@
       <change beforePath="$PROJECT_DIR$/src/FunctionalProgramming/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionalProgramming/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FunctionalProgramming/_Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionalProgramming/_Function.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FunctionalProgramming/_Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionalProgramming/_Predicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunctionalProgramming/_Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionalProgramming/_Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Optionals/_Optionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Optionals/_Optionals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/csv_reader/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/csv_reader/CSVReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/csv_reader/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/csv_reader/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dsa_koffman_ch2/JUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa_koffman_ch2/JUnitTest.java" afterDir="false" />
@@ -187,9 +197,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -220,7 +230,33 @@
       <recent name="FunctionalProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Lambdas">
+    <configuration name="Callbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Callbacks.Callbacks" />
+      <module name="Advanced-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Callbacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Callbacks.Lambdas" />
+      <module name="Advanced-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Callbacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CombinatorPattern.Main" />
       <module name="Advanced-Java" />
@@ -234,38 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming._Function" />
-      <module name="Advanced-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FunctionalProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_Optionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Optionals._Optionals" />
       <module name="Advanced-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Optionals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming._Predicate" />
-      <module name="Advanced-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FunctionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lambdas" />
+        <item itemvalue="Application.Callbacks" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application._Optionals" />
         <item itemvalue="Application._Supplier" />
-        <item itemvalue="Application._Predicate" />
-        <item itemvalue="Application._Function" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +322,7 @@
       <workItem from="1580002415381" duration="27205000" />
       <workItem from="1580598865455" duration="630000" />
       <workItem from="1580761533919" duration="7894000" />
-      <workItem from="1580817588424" duration="15935000" />
+      <workItem from="1580817588424" duration="19719000" />
     </task>
     <servers />
   </component>
@@ -324,25 +334,25 @@
       <screen x="0" y="0" width="1200" height="760" />
     </state>
     <state x="407" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581278217322" />
-    <state width="1157" height="175" key="GridCell.Tab.0.bottom" timestamp="1581279338648">
+    <state width="1157" height="175" key="GridCell.Tab.0.bottom" timestamp="1581368715079">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.bottom/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581279338648" />
+    <state width="1157" height="175" key="GridCell.Tab.0.bottom/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581368715079" />
     <state width="1157" height="189" key="GridCell.Tab.0.bottom/0.0.1200.760@0.0.1200.760" timestamp="1580817425988" />
-    <state width="1157" height="175" key="GridCell.Tab.0.center" timestamp="1581279338648">
+    <state width="1157" height="175" key="GridCell.Tab.0.center" timestamp="1581368715079">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.center/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581279338648" />
+    <state width="1157" height="175" key="GridCell.Tab.0.center/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581368715079" />
     <state width="1157" height="189" key="GridCell.Tab.0.center/0.0.1200.760@0.0.1200.760" timestamp="1580817425987" />
-    <state width="1157" height="175" key="GridCell.Tab.0.left" timestamp="1581279338647">
+    <state width="1157" height="175" key="GridCell.Tab.0.left" timestamp="1581368715079">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.left/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581279338647" />
+    <state width="1157" height="175" key="GridCell.Tab.0.left/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581368715079" />
     <state width="1157" height="189" key="GridCell.Tab.0.left/0.0.1200.760@0.0.1200.760" timestamp="1580817425987" />
-    <state width="1157" height="175" key="GridCell.Tab.0.right" timestamp="1581279338648">
+    <state width="1157" height="175" key="GridCell.Tab.0.right" timestamp="1581368715079">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.right/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581279338648" />
+    <state width="1157" height="175" key="GridCell.Tab.0.right/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581368715079" />
     <state width="1157" height="189" key="GridCell.Tab.0.right/0.0.1200.760@0.0.1200.760" timestamp="1580817425988" />
     <state x="34" y="106" key="new project wizard" timestamp="1580603326925">
       <screen x="0" y="0" width="1200" height="760" />
