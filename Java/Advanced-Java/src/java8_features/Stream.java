@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 public class Stream {
     public static void main(String[] args) {
+
         List<String> names = Arrays.asList("papa", "3ewlew", "", "oops", "", "hell");
         // filter
         System.out.println(names.stream()

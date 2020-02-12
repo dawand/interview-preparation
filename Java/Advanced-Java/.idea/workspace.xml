@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c0d5455-d372-4791-8e0e-e674d256544e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Callbacks/Callbacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Callbacks/Lambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
@@ -11,6 +9,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Advanced-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/AsyncProgramming/CompletableFutureExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/AsyncProgramming/CompletableFutureExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Callbacks/Callbacks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Callbacks/Callbacks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/Callbacks/Lambdas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/Callbacks/Lambdas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/CustomerRegistrationValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/CustomerRegistrationValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/CustomerValidatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/CombinatorPattern/CustomerValidatorService.class" afterDir="false" />
@@ -66,6 +66,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakHashMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakHashMapExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakReferenceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced-Java/java_gc/WeakReferenceExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AsyncProgramming/CompletableFutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AsyncProgramming/CompletableFutureExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Callbacks/Callbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Callbacks/Callbacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Callbacks/Lambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Callbacks/Lambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CombinatorPattern/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinatorPattern/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CombinatorPattern/CustomerRegistrationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinatorPattern/CustomerRegistrationValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CombinatorPattern/CustomerValidatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinatorPattern/CustomerValidatorService.java" afterDir="false" />
@@ -194,6 +196,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Advanced-Java" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -221,8 +226,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change Language" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -230,7 +236,7 @@
       <recent name="FunctionalProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lambdas">
+  <component name="RunManager" selected="Application._Optionals">
     <configuration name="Callbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Callbacks.Callbacks" />
       <module name="Advanced-Java" />
@@ -298,13 +304,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Optionals" />
         <item itemvalue="Application.Lambdas" />
         <item itemvalue="Application.Callbacks" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application._Optionals" />
         <item itemvalue="Application._Supplier" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -322,7 +340,7 @@
       <workItem from="1580002415381" duration="27205000" />
       <workItem from="1580598865455" duration="630000" />
       <workItem from="1580761533919" duration="7894000" />
-      <workItem from="1580817588424" duration="19719000" />
+      <workItem from="1580817588424" duration="23373000" />
     </task>
     <servers />
   </component>
@@ -334,33 +352,45 @@
       <screen x="0" y="0" width="1200" height="760" />
     </state>
     <state x="407" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581278217322" />
-    <state width="1157" height="175" key="GridCell.Tab.0.bottom" timestamp="1581368715079">
+    <state width="1157" height="211" key="GridCell.Tab.0.bottom" timestamp="1581376453611">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.bottom/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581368715079" />
+    <state width="1157" height="211" key="GridCell.Tab.0.bottom/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581376453611" />
     <state width="1157" height="189" key="GridCell.Tab.0.bottom/0.0.1200.760@0.0.1200.760" timestamp="1580817425988" />
-    <state width="1157" height="175" key="GridCell.Tab.0.center" timestamp="1581368715079">
+    <state width="1157" height="211" key="GridCell.Tab.0.center" timestamp="1581376453610">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.center/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581368715079" />
+    <state width="1157" height="211" key="GridCell.Tab.0.center/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581376453610" />
     <state width="1157" height="189" key="GridCell.Tab.0.center/0.0.1200.760@0.0.1200.760" timestamp="1580817425987" />
-    <state width="1157" height="175" key="GridCell.Tab.0.left" timestamp="1581368715079">
+    <state width="1157" height="211" key="GridCell.Tab.0.left" timestamp="1581376453610">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.left/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581368715079" />
+    <state width="1157" height="211" key="GridCell.Tab.0.left/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581376453610" />
     <state width="1157" height="189" key="GridCell.Tab.0.left/0.0.1200.760@0.0.1200.760" timestamp="1580817425987" />
-    <state width="1157" height="175" key="GridCell.Tab.0.right" timestamp="1581368715079">
+    <state width="1157" height="211" key="GridCell.Tab.0.right" timestamp="1581376453611">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="175" key="GridCell.Tab.0.right/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581368715079" />
+    <state width="1157" height="211" key="GridCell.Tab.0.right/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581376453611" />
     <state width="1157" height="189" key="GridCell.Tab.0.right/0.0.1200.760@0.0.1200.760" timestamp="1580817425988" />
+    <state x="111" y="29" key="SettingsEditor" timestamp="1581375852157">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state x="111" y="29" key="SettingsEditor/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581375852157" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1581377006858">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581377006858" />
     <state x="34" y="106" key="new project wizard" timestamp="1580603326925">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
     <state x="34" y="106" key="new project wizard/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1580603326925" />
-    <state x="263" y="81" key="search.everywhere.popup" timestamp="1581113063460">
+    <state x="243" y="112" width="700" height="530" key="recent.locations.popup" timestamp="1581377022122">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state x="263" y="81" key="search.everywhere.popup/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581113063460" />
+    <state x="243" y="112" width="700" height="530" key="recent.locations.popup/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581377022122" />
+    <state x="263" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1581376999921">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state x="263" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1200.760/3000.0.1280.680@0.0.1200.760" timestamp="1581376999921" />
   </component>
 </project>
