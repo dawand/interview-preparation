@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java/Advanced-Java/Advanced-Java.iml" filepath="$PROJECT_DIR$/Java/Advanced-Java/Advanced-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/bp-test/bp-test.iml" filepath="$PROJECT_DIR$/Java/bp-test/bp-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codility-lessons/codility-lessons.iml" filepath="$PROJECT_DIR$/codility-lessons/codility-lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interview-preparation.iml" filepath="$PROJECT_DIR$/interview-preparation.iml" />
+    </modules>
+  </component>
+</project>
