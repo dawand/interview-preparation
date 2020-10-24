@@ -15,7 +15,7 @@ class topKFrequent {
         }
 
         PriorityQueue<Map.Entry<String, Integer>> pq = new PriorityQueue<>(
-                (a,b) -> a.getValue() == b.getValue()
+                (a,b) -> a.getValue().equals(b.getValue())
                         ? b.getKey().compareTo(a.getKey())
                         : a.getValue() - b.getValue()
         );

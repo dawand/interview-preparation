@@ -15,8 +15,6 @@ public class Lambdas {
     }
 
     static class Service {
-        public Consumer<String> blah = s -> {
-            System.out.println(s);
-        };
+        public Consumer<String> blah = System.out::println;
     }
 }
