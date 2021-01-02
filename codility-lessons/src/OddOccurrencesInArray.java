@@ -10,7 +10,7 @@ public class OddOccurrencesInArray {
 
     ArrayList<Integer> results = new ArrayList<>();
 
-    private Solution sol = new Solution();
+    private final Solution sol = new Solution();
 
     private void run(){
         inputList.add(input1);
