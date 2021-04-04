@@ -24,10 +24,10 @@ public class ThreadLocalExample {
             });
         }
 
-//        new Thread(() -> {
-//            String td2 = birthDate(2);
-//            System.out.println(td2);
-//        }).start();
+        new Thread(() -> {
+            String td2 = birthDate(2);
+            System.out.println(td2);
+        }).start();
 
         Thread.sleep(1000);
     }
