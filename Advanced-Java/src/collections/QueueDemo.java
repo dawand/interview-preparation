@@ -27,6 +27,26 @@ public class QueueDemo {
         customQueue2.addLast("Ramadan");
         customQueue2.addLast("Mubarak");
         customQueue2.forEach(System.out::println);
+
+        Queue<Person> people = new PriorityQueue<>(Comparator.comparingInt(Person::getAge));
+        Person ramadan = new Person("Ramadan", 34);
+        Person dawan = new Person("Dawan", 32);
+        Person sheriffo = new Person("Sheriffo", 33);
+        Person ramadan2 = new Person("Ramadan", 31);
+        people.add(ramadan);
+        people.add(dawan);
+        people.add(sheriffo);
+        people.add(ramadan2);
+
+        System.out.println("PQ for Person");
+//        people.forEach(System.out::println);
+
+        while(true)
+        {
+            Person e = people.poll();
+            System.out.println(e);
+            if(e == null) break;
+        }
     }
 }
 

@@ -89,5 +89,9 @@ public class ListDemo {
         numbersLinkedList.forEach(System.out::println);
 
         System.out.println(numbersLinkedList.contains(3));
+
+        int[] nums = new int[5];
+        Arrays.fill(nums, 1);
+        Arrays.sort(nums);
     }
 }
